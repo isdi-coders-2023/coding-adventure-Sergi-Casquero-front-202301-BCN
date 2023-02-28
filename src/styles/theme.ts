@@ -1,11 +1,13 @@
-import ThemeStructure from "./types";
+import { ThemeStructure } from "styled-components";
 
 const theme: ThemeStructure = {
   colors: {
     mainColor: "#cccf18",
   },
-  fonts: {
+  fontFamilies: {
     mainFontFamily: "saira stencil one, sans-serif",
+  },
+  fontSizes: {
     mainFontSize: "1rem",
     biggerFontSize: "1.25rem",
   },
