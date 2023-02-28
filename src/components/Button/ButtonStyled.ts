@@ -2,11 +2,11 @@ import styled from "styled-components";
 import "@fontsource/saira-stencil-one";
 
 const ButtonStyled = styled.button`
-  width: 323px;
+  width: ${(props) => props.theme.sizes.mobileWidth};
   height: 40px;
-  background-color: ${(props) => props.theme.main.mainColor};
-  font-family: "saira stencil one", sans-serif;
-  font-size: 1.25rem;
+  background-color: ${(props) => props.theme.colors.mainColor};
+  font-family: ${(props) => props.theme.fonts.mainFontFamily};
+  font-size: ${(props) => props.theme.fonts.biggerFontSize};
   border: none;
   border-radius: 10px;
   position: absolute;
