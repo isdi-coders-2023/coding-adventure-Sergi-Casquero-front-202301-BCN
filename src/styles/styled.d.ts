@@ -1,16 +1,21 @@
 import "styled-components";
 
 declare module "styled-components" {
-  export interface ThemeStructure {
+  export interface DefaultTheme {
     colors: {
       mainColor: string;
+      requiredColor: string;
+      backgroundColor: string;
+      inputColor: string;
     };
     fontFamilies: {
-      mainFontFamily: string;
+      textFontFamily: string;
+      subtitlesFontFamily: string;
     };
     fontSizes: {
       mainFontSize: string;
       biggerFontSize: string;
+      requiredFontSize: string;
     };
     sizes: {
       mobileWidth: string;

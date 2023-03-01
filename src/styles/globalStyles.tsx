@@ -7,9 +7,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    display: flex;
+    justify-content: center;
     width: 100%;
     min-height: 100vh;
     margin: 0;
+    background-color: ${(props) => props.theme.colors.backgroundColor};
   }
 
   a {
