@@ -5,11 +5,10 @@ const ButtonStyled = styled.button`
   width: ${(props) => props.theme.sizes.mobileWidth};
   height: 40px;
   background-color: ${(props) => props.theme.colors.mainColor};
-  font-family: ${(props) => props.theme.fontFamilies.mainFontFamily};
+  font-family: ${(props) => props.theme.fontFamilies.subtitlesFontFamily};
   font-size: ${(props) => props.theme.fontSizes.biggerFontSize};
   border: none;
   border-radius: 10px;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
